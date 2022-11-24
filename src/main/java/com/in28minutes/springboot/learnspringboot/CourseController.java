@@ -13,5 +13,10 @@ public class CourseController {
 	public List<Course> retAllCourse(){
 		return Arrays.asList(new Course(1,"C+++","Aditya"),new Course(2,"Java","Aditya"));
 	}
+
+	@RequestMapping("/students")
+	public List<Course> retAllCourse2(){
+		return Arrays.asList(new Course(1,"C+++","Aditya"),new Course(2,"Java","Aditya"));
+	}
 	
 }
