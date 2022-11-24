@@ -16,7 +16,9 @@ public class CourseController {
 
 	@RequestMapping("/students")
 	public List<Course> retAllCourse2(){
+		System.out.println("In the feature branch");
 		return Arrays.asList(new Course(1,"C+++","Aditya"),new Course(2,"Java","Aditya"));
+
 	}
 	
 }
